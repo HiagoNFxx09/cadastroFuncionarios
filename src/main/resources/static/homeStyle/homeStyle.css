@@ -1,0 +1,50 @@
+#wrape {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    height: 600px;
+    margin: auto;
+    background-color: rgb(23, 5, 142);
+    text-align: justify;
+    color: rgb(194, 209, 221);
+    border-radius: 20px;
+
+}
+
+body {
+    background-color: rgb(16, 21, 40);
+
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(96, 167, 180);
+}
+
+header nav h2 {
+    text-align: center;
+}
+
+footer {
+    padding: 25px;
+    clear: both;
+    text-align: center;
+}
+
+ul li {
+    padding: 5px;
+}
+
+nav p a{
+    font-size: 20px;
+    color: darkblue;
+    padding: 3px;
+    background-color:rgb(242, 215, 255);
+    border-radius: 4px;
+    border: 1px solid black;
+    text-decoration: none;
+}
+nav p a:hover{
+    background-color: rgb(97, 13, 118);
+    color: aliceblue;
+}
