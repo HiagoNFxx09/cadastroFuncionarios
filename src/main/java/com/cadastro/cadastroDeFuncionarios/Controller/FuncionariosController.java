@@ -13,7 +13,7 @@ import com.cadastro.cadastroDeFuncionarios.Business.FuncionariosService;
 import com.cadastro.cadastroDeFuncionarios.Infrastructure.Entity.Funcionarios;
 
 import lombok.RequiredArgsConstructor;
-import lombok.experimental.PackagePrivate;
+
 
 @RestController
 @RequestMapping ("/funcionarios")
@@ -23,7 +23,7 @@ public class FuncionariosController {
     private final FuncionariosService funcionariosService;
 
 
-    @PostMapping
+    @PostMapping("/salvar")
     public ResponseEntity<Void> salvarFuncionario(@RequestBody Funcionarios funcionarios) {
         funcionariosService.salvarFuncionario(funcionarios);
         return ResponseEntity.ok().build();

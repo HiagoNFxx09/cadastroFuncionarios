@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/main/resources/static/homeStyle/homeStyle.css">
+    <link rel="stylesheet" href="/src/main/resources/static/cadastroStyle/cadastroStyle.css">
+    <title>Cadastro de Funcionários</title>
+</head>
+
+<body>
+    <div id="wrape">
+    <nav>
+        <h1>Cadastro De Funcionários</h1>
+        <p><a href="../home/index.html">Voltar</a></p>
+    </nav>
+
+    <form action="@{/funcionarios/salvar}" >
+        <label for="name">Digite seu nome</label>
+        <input name="nome" id="name" placeholder="Digite seu Nome" type="text">
+
+        <label for="email">Digite seu Email</label>
+        <input name="email" id="email" placeholder="Digite seu email" type="email">
+        
+        <input name="enviar" id="enviar" type="submit" value="enviar">
+    </form>
+</div>
+</body>
+
+</html>
