@@ -12,6 +12,9 @@
 
 body {
     background-color: rgb(16, 21, 40);
+    background-image: url(/src/main/resources/templates/imgs/paisagem.jpg);
+    background-size: cover;
+    background-position: center;
 
 }
 
@@ -47,4 +50,10 @@ nav p a{
 nav p a:hover{
     background-color: rgb(97, 13, 118);
     color: aliceblue;
+}
+img{
+    width: 900px;
+    height: 700px;
+     z-index: -1;
+     object-fit: cover; 
 }
